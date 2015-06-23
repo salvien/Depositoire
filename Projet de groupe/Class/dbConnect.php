@@ -55,5 +55,9 @@
 			$result = $this->_connect->query("Select * FROM `users`");
 
 			return $result->fetchAll();
-		}
+        }
+
+        function GetPdo(){
+            return $this->_connect;
+        }
 	}
