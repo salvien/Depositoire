@@ -1,0 +1,100 @@
+ /* fond de paragraphe par default */
+
+body{
+  color: black;
+  background-color: white;
+  background-image: url(fleurs.png);
+  background-attachment: fixed;
+}
+div{
+	/*background-color:#A4A4A4;*/
+	margin:auto;
+	margin-bottom:5%;
+	padding: 10px;
+	width: 95%;
+	
+}
+/*haut de page */
+div#entête{
+	background-color:#A4A4A4;
+	border-radius: 50% 50% 0% 0%;
+	color:#210B61;
+	font-size: 50px;
+	width: 70%;
+	margin: auto;
+	max-width: 630px;
+}
+/*variante quand curseur dessus */
+/*div#entête:hover{
+	background-color:#800000;
+	color:#FF0000;
+	cursor:pointer;
+}*/
+/*texte milieu de page et corp*/
+div.formulaire {
+  background-color: #A4A4A4;
+  border-radius: 0% 0% 50% 50%;
+  color: #210B61;
+  font-size: 50px;
+  width: 70%;
+  margin: auto;
+  max-width: 630px;
+  margin-top: -85px;
+}
+/*variante quand curseur dessus */
+/*div.formulaire:hover{
+	background-color:#008000;
+	color:#00FF00;
+	cursor:pointer;
+}*/
+
+ /*page des resultats*/
+div.resultats{
+    background-color: #A4A4A4;
+    border-radius: 50% 50%;
+    color: #210B61;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    max-width: 630px;
+    margin-top: -85px;
+    padding: 85px;
+	}
+
+
+#test{
+	font-size:25px;
+}
+
+/*tableau d'extraction */
+#tableForm{
+  width: 70%;
+  margin: auto;
+  max-width: 500px;
+}
+
+/*page admin gestion user*/
+div.admin{
+    background-color: #A4A4A4;
+    border-radius: 0% 0% 50% 50% ;
+    color: #210B61;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    max-width: 630px;
+    margin-top: -85px;
+    padding: 85px;
+}
+
+/*panneau attention si erreur de connection*/
+div.warning{
+    background-color: #FF0000;
+    border-radius: 50% 50% ;
+    color: #fff;
+    font-size: 25px;
+    width: auto;
+    margin: auto;
+    max-width: 630px;
+    margin-top: -85px;
+    padding: 85px;
+}
